@@ -13,10 +13,14 @@
 	<body>
 		<div class="list">
 			<h1 class="header">To do.</h1>
-
-			<ul>
-				<li><span class="item">Pick up shopping</span></li>
-				<li><span class="item done">Learn php</span></li>
+			<ul class="items">
+				<li>
+					<span class="item">Pick up shopping</span>
+				</li>
+				<li>
+					<span class="item done">Learn php</span>
+					<a href="#" class="done-button">Mark as done</a>
+				</li>
 			</ul>
 
 			<form class="item-add" action="add.php" method="post">
